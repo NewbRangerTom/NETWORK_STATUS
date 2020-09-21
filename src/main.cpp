@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266Ping.h>
 
-const char* WIFI_SSID = "change_this";  //your SSID
-const char* WIFI_PWD = "change_this";  //your password (WPA2 key)
+const char* WIFI_SSID = "HOME-FL_24G";  //your SSID
+const char* WIFI_PWD = "AITFTjax91!";  //your password (WPA2 key)
 
 const IPAddress remote_ip(1,1,1,1);
 const IPAddress gateway_ip(172,25,142,129);
@@ -12,8 +12,9 @@ int dt1=1000;
 int dt2=2000;
 int dt5=5000;
 
-int ledR = D3;
-int ledG = D4;
+//LED pinout - common cathode to GND
+#define ledR  D2
+#define ledG  D3
 
 long day = 86400000; // 86400000 milliseconds in a day
 long hour = 3600000; // 3600000 milliseconds in an hour
