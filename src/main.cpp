@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266Ping.h>
 
-const char* WIFI_SSID = "HOME-FL_24G";  //your SSID
-const char* WIFI_PWD = "AITFTjax91!";  //your password (WPA2 key)
+const char* WIFI_SSID = "your_SSID";  //your SSID for 2.4Ghz network
+const char* WIFI_PWD = "your_password";  //your password (WPA2 key)
 
 const IPAddress remote_ip(1,1,1,1);
 const IPAddress gateway_ip(172,25,142,129);
