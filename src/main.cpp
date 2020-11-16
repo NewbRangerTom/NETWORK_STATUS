@@ -5,8 +5,8 @@
 const char* WIFI_SSID = "your_SSID";  //your SSID for 2.4Ghz network
 const char* WIFI_PWD = "your_password";  //your password (WPA2 key)
 
-const IPAddress remote_ip(1,1,1,1);
-const IPAddress gateway_ip(172,25,142,129);
+const IPAddress remote_ip(1,1,1,1);   // you can change this to any public address you want.  A public DNS server is ideal.
+const IPAddress gateway_ip(x,x,x,x);  // change to your gateway IP address
 
 int dt1=1000;
 int dt2=2000;
